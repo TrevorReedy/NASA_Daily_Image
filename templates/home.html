@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script
+src="{{ url_for('static', filename='index.js') }}"
+type="module"
+></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME WEBSITE</title>
+    <style>
+        body {margin-top: 0; display: flex;flex-direction:column; justify-content: center;background-repeat:no-repeat; background-color: black;}
+        h1{text-align: center;font-family: Arial, Helvetica, sans-serif;color: white; background-color: black;}
+        p {text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 48px;color: white; font-size: 48px;}
+        figure {align-self: center;}
+        div {display: flex; justify-content: center;}
+        #archive_search{position:sticky; align-self: top; height: 2.5vh; width: 100%; align-self: center;}
+        figcaption{position: sticky; align-self: right;color: white;}
+    </style>
+    </head>
+<body>
+   <h1>NASA Daily Image</h1>
+<figure>
+   <img src="{{ nasa_pic }}" ></img>
+   <a href="{{  img_url  }}">
+        <figcaption>Source:  {{  img_url  }}</figcaption>
+        </a>
+</figure>
+   <p>Nasa Picture from: {{ dateToday }}</p>
+   <p>Archived from {{  dateTodayText  }} through Janurary 01, 1996</p>
+   <h1>YY/MM/DD</h1>
+   <div>
+   
+    <form id='form'action="archive_search" method="post"autocorrect="off" spellcheck="false" autocomplete="off">
+        <input type="text"placeholder="YY/MM/DD(NO /)"name="archive_search">
+        <br>
+        <input type="submit" value="Search"id="archive_search">
+    </form>
+    <!-- <button onclick="someFunc()">Refresh</button>
+        
+    </div> -->
+
+</body>
+</html>
