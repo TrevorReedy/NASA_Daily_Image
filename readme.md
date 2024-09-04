@@ -13,7 +13,7 @@ Clone the Repository
 
 
 
-cd nasa-apod-viewer
+<pre> <code> cd nasa-apod-viewer </code> </pre>
 Install Dependencies
 
 <pre> <code> ```pip install -r requirements.txt ``` </code> </pre>
