@@ -9,7 +9,7 @@ Prerequisites
 Python 3.7 or higher
 pip (Python package installer)
 Clone the Repository
-<pre> <code> git clone https://github.com/OdinScriptKitty/NASA_Daily_Image ``` </code> </pre>
+<pre> <code> git clone https://github.com/OdinScriptKitty/NASA_Daily_Image </code> </pre>
 
 
 
