@@ -10,7 +10,7 @@ Python 3.7 or higher
 pip (Python package installer)
 Clone the Repository
 
-git clone https://github.com/yourusername/nasa-apod-viewer.git](https://github.com/OdinScriptKitty/NASA_Daily_Image
+git clone https://github.com/OdinScriptKitty/NASA_Daily_Image
 
 
 
