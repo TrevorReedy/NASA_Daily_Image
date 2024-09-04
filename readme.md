@@ -29,7 +29,7 @@ Run the Application
 **Viewing Today's Picture**
 	Simply open the app in your web browser to view the latest Astronomy Picture of the Day.
 **Searching the Archive**
-	Enter a date in the MM/DD/YY format in the search form.
+	Enter a date in the YY/MM/DD format in the search form.
 	Click "Search" to view the image from that specific date.
 
  
@@ -41,15 +41,15 @@ Run the Application
 	├── templates/
 	│   └── home.html          # HTML template for the home page
 	│
-	├── app.py                 # Main Flask application file
+	├── webscrapeOnline.py                 # Main Flask application file
 	├── README.md              # This README file
 	└── requirements.txt       # Python dependencies
 
  
 **Dependencies**
-Flask: Web framework used to build the application.
-	BeautifulSoup4: Used for parsing HTML to scrape data from NASA's website.
-	requests: Used for making HTTP requests to retrieve web pages.
+	**Flask**: Web framework used to build the application.
+	**BeautifulSoup4**: Used for parsing HTML to scrape data from NASA's website.
+	**requests**: Used for making HTTP requests to retrieve web pages.
  
 **Contributing**
 	Contributions are welcome! Please fork the repository and submit a pull request.
