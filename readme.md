@@ -22,8 +22,7 @@ Install Dependencies
 
 
 Run the Application
-<pre> <code> python app.py
-	The app will start on http://127.0.0.1:8050/. </code> </pre>
+<pre> <code> webscrapeOnline.py  The app will start on http://127.0.0.1:8050/. </code> </pre>
 
 
 **Usage**
