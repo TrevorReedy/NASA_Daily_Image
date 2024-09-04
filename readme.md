@@ -16,14 +16,14 @@ Clone the Repository
 <pre> <code> cd nasa-apod-viewer </code> </pre>
 Install Dependencies
 
-<pre> <code> ```pip install -r requirements.txt ``` </code> </pre>
+<pre> <code> pip install -r requirements.txt </code> </pre>
 
 
 
 
 Run the Application
-<pre> <code> ```python app.py
-	The app will start on http://127.0.0.1:8050/. ``` </code> </pre>
+<pre> <code> python app.py
+	The app will start on http://127.0.0.1:8050/. </code> </pre>
 
 
 **Usage**
