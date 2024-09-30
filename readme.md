@@ -40,7 +40,7 @@ Run the Application
 	├── templates/
 	│   └── home.html          # HTML template for the home page
 	│
-	├── webscrapeOnline.py                 # Main Flask application file
+	├── webscrapeOnline.py     # Main Flask application file
 	├── README.md              # This README file
 	└── requirements.txt       # Python dependencies
 </code> </pre>
