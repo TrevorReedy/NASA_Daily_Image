@@ -34,9 +34,8 @@ Run the Application
 
  
 **File Structure**
-	bash
-	Copy code
-	nasa-apod-viewer/
+	<pre> <code>
+ 	nasa-apod-viewer/
 	│
 	├── templates/
 	│   └── home.html          # HTML template for the home page
@@ -44,7 +43,8 @@ Run the Application
 	├── webscrapeOnline.py                 # Main Flask application file
 	├── README.md              # This README file
 	└── requirements.txt       # Python dependencies
-
+</code> </pre>
+	
  
 **Dependencies**
 	**Flask**: Web framework used to build the application.
